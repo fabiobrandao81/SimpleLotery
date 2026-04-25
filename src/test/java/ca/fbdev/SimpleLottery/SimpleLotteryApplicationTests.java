@@ -1,10 +1,10 @@
-package ca.fbdev.SimpleLotery;
+package ca.fbdev.SimpleLottery;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SimpleLoteryApplicationTests {
+class SimpleLotteryApplicationTests {
 
   @Test
   void contextLoads() {
