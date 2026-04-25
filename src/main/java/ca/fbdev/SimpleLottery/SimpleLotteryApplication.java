@@ -1,4 +1,4 @@
-package ca.fbdev.SimpleLotery;
+package ca.fbdev.SimpleLottery;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.CommandLineRunner;
@@ -7,12 +7,12 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
-public class SimpleLoteryApplication {
+public class SimpleLotteryApplication {
 	@Value("${DB_HOST:NOT_FOUND}")
     private String dbHost;
 
   public static void main(String[] args) {
-    SpringApplication.run(SimpleLoteryApplication.class, args);
+    SpringApplication.run(SimpleLotteryApplication.class, args);
   }
 
   @Bean
